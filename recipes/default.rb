@@ -15,7 +15,6 @@ end
 
 template "/usr/share/applications/#{node['sublime_text']['shortcut_name']}.desktop" do
   source "sublime_text.desktop.erb"
-  cookbook "uncrate_linux_apps"
   mode "0644"
 end
 

@@ -11,5 +11,5 @@ dmg_package "Sublime Text 2" do
 end
 
 link "/usr/local/bin/#{node['sublime_text']['shortcut_name']}" do
-  to "/Applications?Sublime Text 2.app/Contents/SharedSupport/bin/subl"
+  to "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl"
 end
